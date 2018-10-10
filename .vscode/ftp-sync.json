@@ -1,0 +1,20 @@
+{
+	"remotePath": "/www/",
+	"host": "pawsxpress.fi.tempcloudsite.com",
+	"username": "ismael_pawsxpress.com",
+	"password": "ismael",
+	"port": 21,
+	"secure": false,
+	"protocol": "ftp",
+	"uploadOnSave": false,
+	"passive": false,
+	"debug": false,
+	"privateKeyPath": null,
+	"passphrase": null,
+	"ignore": ["\\.vscode", "\\.git", "\\.DS_Store"],
+	"generatedFiles": {
+		"uploadOnSave": false,
+		"extensionsToInclude": [],
+		"path": ""
+	}
+}
