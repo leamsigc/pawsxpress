@@ -180,10 +180,12 @@ footer a {
 	font-size: 1.2rem;
 	font-weight: 600;
 }
-@media (max-width: 700px) {
+@media (max-width: 900px) {
+	main{
+		padding: 1rem 2rem ;
+	}
 	nav,
-	header,
-	nav ul {
+	header {
 		flex-direction: column;
 	}
 	header {
@@ -195,8 +197,9 @@ footer a {
 		width: 100%;
 	}
 	nav ul {
-		display: block;
-		width: 100%;
+		max-width: 100%;
+		flex-wrap: wrap;
+		justify-content: space-around;
 	}
 	.testimonials .item {
 		flex-direction: column;
@@ -223,6 +226,19 @@ footer a {
 		flex-direction: column;
 	}
 	.contact_info {
+		margin-top: 2rem;
 		width: 100%;
+	}
+	nav ul li{
+
+		width: 45%;
+		margin-top: 1rem;
+	}
+	.item ul {
+		list-style: none;
+	}
+	.item img {
+		width: 100%;
+		margin-top: 1rem;
 	}
 }
